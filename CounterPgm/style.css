@@ -1,0 +1,38 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+  
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #242424;
+  
+    font-synthesis: none;
+}
+
+#countLabel{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    color: rgb(150, 185, 20);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;    
+}
+
+#buttonContainer{
+    text-align: center;
+}
+
+.button{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: antiquewhite;
+    background-color: rgb(136, 185, 96);
+    border-radius: 80px;
+    cursor: pointer;
+    transition: 0.5s;
+    border: 5px ;
+}
+
+.button:hover{
+    background-color: rgb(40, 88, 21);
+}
