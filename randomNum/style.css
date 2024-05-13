@@ -1,0 +1,22 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+
+}
+#myButton{
+    font-size: 3em;
+    padding: 5px 25px;
+    border-radius: 50px;
+    background-color: rgb(7, 7, 7);
+    transition: 0.5s;
+    color: azure;
+    cursor: pointer;
+}
+#myButton:hover{
+    background-color: rgb(83, 71, 71);
+}
+
+#myLabel{
+    font-size: 3em;
+}
+
